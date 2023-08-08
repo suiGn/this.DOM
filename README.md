@@ -1,4 +1,4 @@
-<img src="/Users/suign/Desktop/@me/@src/git/@npm/this.audio/_._.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
+<img src="./_._.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
 
 # this.dom
 
