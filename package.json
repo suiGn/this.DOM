@@ -1,0 +1,23 @@
+{
+  "name": "this.dom",
+  "version": "1.0.0",
+  "description": "this dom",
+  "main": "DOM.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/this.DOM.git"
+  },
+  "keywords": [
+    "this",
+    "DOM"
+  ],
+  "author": "suiGN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiGn/this.DOM/issues"
+  },
+  "homepage": "https://github.com/suiGn/this.DOM#readme"
+}
