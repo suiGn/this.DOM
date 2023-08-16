@@ -1,6 +1,6 @@
 {
   "name": "this.dom",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "this dom",
   "main": "DOM.js",
   "scripts": {
