@@ -10,8 +10,8 @@ npm i this.dom
 Some help would be appreciated.
 
 **Introduction to `this.dom` in the context of Standardized Data Structuring**
- Every web page is built on the Document Object Model (DOM). `this.dom` abstracts this structure, presenting the DOM in a standardized format. It ensures that every interaction, every element, and every change on the web page is captured and structured uniformly.
--------------------------
+
+ Every web page is **built on the Document Object Model (DOM)**. `this.dom` abstracts this structure, presenting the DOM in a standardized format. It ensures that every interaction, every element, and every change on the web page is captured and structured uniformly.
 
 ### Example Usage:
 ```js
@@ -25,21 +25,12 @@ console.log(domInstance.getStandardizedRepresentation());
 
 This code takes an HTML DOM element, standardizes it by converting it into a uniform object structure, and then logs this structured representation. The structure includes the tag name, attributes, textual content, and children (which recursively have the same structure).
 
-Note: This is a basic setup. Depending on the complexity of your needs, you may need to extend this class with more features and functionalities.
-
-### Conceptual Flow:
-
-- [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
-- [ ] Create a neural network using [neurons.me](https://www.neurons.me).
-- [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
-- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
-- [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
-- [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
+**Note:** This is a basic setup. Depending on the complexity of your needs, you may need to extend this class with more features and functionalities.
 
 -------------------------------------
 
 # Clone THIS Sanbox DEMO Playground
-the Playground, where the entire THIS.ME suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
+the Playground, where the entire  suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
 
 ##  Sandbox Demo Quick Start
 ### 1. Clone the Repository
@@ -64,7 +55,17 @@ npm install
 ```
 npx electron index.js
 ```
+### Conceptual Flow:
+
+- [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
+- [ ] Create a neural network using [neurons.me](https://www.neurons.me).
+- [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
+- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
+- [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
+- [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
+
 # Context of Abstraction for Machine Learning Standardization
+
 Traditional web development elements, from images to audio, are designed mainly for display and interaction. But what if they could be seamlessly converted into standardized formats primed for machine learning? That's the vision behind the **this.** modules.
 
 An Introduction to the this. JavaScript Library: Standardizing Web Development Elements for Machine Learning.
