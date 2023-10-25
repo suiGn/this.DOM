@@ -2,7 +2,7 @@
   "name": "this.dom",
   "version": "1.0.8",
   "description": "this dom",
-  "main": "DOM.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
