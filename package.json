@@ -6,19 +6,20 @@
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suiGn/this.DOM.git"
-  },
   "keywords": [
     "this",
     "DOM"
   ],
-  "author": "suiGN",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/suiGn/this.DOM/issues"
   },
-  "homepage": "https://github.com/suiGn/this.DOM#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/this.DOM.git"
+  },
+  "homepage": "https://www.npmjs.com/package/this.dom",
+  "docs": "https://suiGn.github.io/this.DOM",
+  "author": "suiGN",
+  "license": "MIT",
   "repoType": "NPM Package"
 }
