@@ -21,5 +21,6 @@
   "docs": "https://suiGn.github.io/this.DOM",
   "author": "suiGN",
   "license": "MIT",
-  "repoType": "NPM Package"
+  "repoType": "NPM Package",
+  "category": "dataformatter"
 }
