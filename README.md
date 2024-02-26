@@ -29,46 +29,11 @@ This code takes an HTML DOM element, standardizes it by converting it into a uni
 
 -------------------------------------
 
-# Clone THIS Sanbox DEMO Playground
-the Playground, where the entire  suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
-
-##  Sandbox Demo Quick Start
-### 1. Clone the Repository
-```bash
-git clone https://github.com/suiGn/.me.git
-```
-### 2. Navigate to the Project Directory
-```bash
-cd .me
-```
-### 3. Install Dependencies
-You can use either Yarn or npm to install the necessary dependencies.
-Using Yarn:
-```bash
-yarn install 
-```
-Using npm:
-```bash
-npm install
-```
-### 4. Launch the Application
-```
-npx electron index.js
-```
-### Conceptual Flow:
-
-- [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
-- [ ] Create a neural network using [neurons.me](https://www.neurons.me).
-- [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
-- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
-- [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
-- [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
 
 # Context of Abstraction for Machine Learning Standardization
+Traditional web development elements, from images to audio, are designed mainly for display and interaction. But what if they could be seamlessly converted into standardized formats primed for machine learning? That's the vision behind the **all.this** modules.
 
-Traditional web development elements, from images to audio, are designed mainly for display and interaction. But what if they could be seamlessly converted into standardized formats primed for machine learning? That's the vision behind the **this.** modules.
-
-An Introduction to the this. JavaScript Library: Standardizing Web Development Elements for Machine Learning.
+An Introduction to the all.this Library: Standardizing Web Development Elements for Machine Learning.
 
 ## Principles Behind the this. Library:
 - ### **Abstraction for ML:**
@@ -81,7 +46,7 @@ Rooted in JavaScript, the this. library builds upon public web development stand
 The this. library champions open standards. By leveraging public web standards, it invites collaboration, hoping to create a community that continually refines and enhances the bridge between web development and machine learning.
 
 [neurons.me](https://www.neurons.me)
-[neurons.me/this](https://www.neurons.me/this)
+[neurons.me/this](https://www.neurons.me/all-this)
 
 ## Contributing
 If you have suggestions or issues, please open an issue. We encourage contributions from the community.
