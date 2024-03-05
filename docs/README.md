@@ -1,97 +1,79 @@
 <img src="./_._.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
 
-# this.dom
+## UNDER DEVELOPMENT NOT YET READY FOR PRODUCTION.
 
-```bash
+## this.dom: Reshaping Web Data for neurons.me
+this.dom is crafted as a transformative module within the all.this family, specifically designed to capture and reformat any web page's Document Object Model (DOM) for compatibility with the standardized formats of neurons.me. Its primary mission is to facilitate the extraction and conversion of web-based data, enabling its seamless integration into the machine learning ecosystem of neurons.me.
+
+Core Objectives of this.dom:
+Universal DOM Capture: this.dom is engineered to efficiently fetch and encapsulate the DOM from any website or web application, ensuring that the data is accessible regardless of its original context or structure.
+
+Data Transformation: Beyond mere data capture, this.dom excels in converting the gathered DOM information into a neurons.me-compatible format. This process involves reorganizing the DOM's structure, standardizing its components, and preparing the data for machine learning applications.
+
+Enhanced Interoperability: By aligning the data structure of web content with the neurons.me framework, this.dom eradicates barriers to data compatibility, enabling a fluid data flow between web environments and machine learning models.
+
+Getting Started with this.dom:
+To integrate this.dom into your workflow, begin by installing the package:
+
+bash
+Copy code
 npm i this.dom
-```
-
-#### Currently Under Development.
-Some help would be appreciated.
-
-**Introduction to `this.dom` in the context of Standardized Data Structuring**
-
- Every web page is **built on the Document Object Model (DOM)**. `this.dom` abstracts this structure, presenting the DOM in a standardized format. It ensures that every interaction, every element, and every change on the web page is captured and structured uniformly.
-
-### Example Usage:
-```js
+Simple Integration Example:
+javascript
+Copy code
 const ThisDom = require('this.dom.js');
-// Let's say you want to standardize the body of the HTML document
-const bodyElement = document.body;
-const domInstance = new ThisDom(bodyElement);
+
+// Example: Standardizing an entire web page's DOM
+const pageDom = document.documentElement;  // Fetch the whole DOM of the page
+const domInstance = new ThisDom(pageDom);
 domInstance.standardize();
-console.log(domInstance.getStandardizedRepresentation());
-```
 
-This code takes an HTML DOM element, standardizes it by converting it into a uniform object structure, and then logs this structured representation. The structure includes the tag name, attributes, textual content, and children (which recursively have the same structure).
+// Obtain and utilize the neurons.me-formatted representation
+console.log(domInstance.getNeuronsMeFormattedData());
+In this snippet, this.dom takes a complete web page's DOM, standardizes it, and outputs a version that is structured according to the neurons.me data specifications, ready for machine learning analysis or processing.
 
-**Note:** This is a basic setup. Depending on the complexity of your needs, you may need to extend this class with more features and functionalities.
+Engaging with the all.this Ecosystem:
+Data Standardization: this.dom plays a pivotal role in the all.this ecosystem, focusing on the standardization of web data, ensuring that every piece of information is primed for neurons.me's analytical tools.
 
--------------------------------------
+Community Collaboration: As an integral component of the all.this library, this.dom benefits from and contributes to a culture of open collaboration. Developers are encouraged to contribute, share insights, and enhance the module's capabilities.
 
-# Clone THIS Sanbox DEMO Playground
-the Playground, where the entire  suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
+Continuous Evolution: The development of this.dom is an ongoing journey, with the module continually evolving to meet the dynamic needs of web data standardization and machine learning integration.
 
-##  Sandbox Demo Quick Start
-### 1. Clone the Repository
-```bash
-git clone https://github.com/suiGn/.me.git
-```
-### 2. Navigate to the Project Directory
-```bash
-cd .me
-```
-### 3. Install Dependencies
-You can use either Yarn or npm to install the necessary dependencies.
-Using Yarn:
-```bash
-yarn install 
-```
-Using npm:
-```bash
-npm install
-```
-### 4. Launch the Application
-```
-npx electron index.js
-```
-### Conceptual Flow:
+Contributing and Licensing:
+Contributions: Your expertise and contributions are welcome to help evolve this.dom, ensuring it remains a cutting-edge tool for data transformation.
 
-- [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
-- [ ] Create a neural network using [neurons.me](https://www.neurons.me).
-- [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
-- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
-- [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
-- [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
+License: Distributed under the MIT License, this.dom supports open-source values, promoting widespread use and collaborative enhancement.
 
-# Context of Abstraction for Machine Learning Standardization
+User Privacy and Usage Terms:
 
-Traditional web development elements, from images to audio, are designed mainly for display and interaction. But what if they could be seamlessly converted into standardized formats primed for machine learning? That's the vision behind the **this.** modules.
-
-An Introduction to the this. JavaScript Library: Standardizing Web Development Elements for Machine Learning.
-
-## Principles Behind the this. Library:
-- ### **Abstraction for ML:**
- The library's core principle is to abstract traditional web elements so that they're immediately primed for machine learning. It's about viewing web content not just as data but as structured, consistent, and standardized data.
-
-- ### **Built on Web Standards:** 
-Rooted in JavaScript, the this. library builds upon public web development standards. The aim is to ensure that developers remain within familiar territories, even as they venture into the world of machine learning.
-
-- ### **Open and Collaborative:** 
-The this. library champions open standards. By leveraging public web standards, it invites collaboration, hoping to create a community that continually refines and enhances the bridge between web development and machine learning.
-
-[neurons.me](https://www.neurons.me)
-[neurons.me/this](https://www.neurons.me/this)
-
-## Contributing
-If you have suggestions or issues, please open an issue. We encourage contributions from the community.
-### License
-This project is licensed under the **MIT License**. See the LICENSE file for details.
-This **README** provides an overview of the project, instructions for installation and usage, and highlights future projections. Feel free to modify or expand it as needed. Congratulations on building this exciting tool, and good luck with its continued development!
-### Privacy Policy
-Our open-source project is designed with respect to user privacy. Given its nature, we neither collect nor store personal data of our users. Users might provide data or personal information through the project's usage, but we do not have access to or control over this information. For more details, please refer to our full Privacy Policy.
-### Terms of Usage
-This package is provided "as-is" without any guarantees or warranties of any kind. Users are responsible for their use of the project and any consequences thereof. We do not guarantee continuous functionality, accuracy, or security of the project and are not liable for any damages or losses users might incur. Users are encouraged to review our complete Terms of Usage before implementing or contributing to the project.
 https://www.neurons.me/terms-of-use
 https://www.neurons.me/privacy-policy
-<img src="./_._.svg" alt="SVG Image" width="69" height="69" style="width69px; height:69px;">
+
+this.dom adheres to stringent privacy standards, processing data without storing personal information. Users are encouraged to review the Privacy Policy and Terms of Use to understand the guidelines governing data handling and usage rights.
+By adopting this.dom in your projects, you're not just accessing a tool; you're embracing a new paradigm where web data becomes a ready-to-use asset for machine learning, powered by the innovative synergy between this.dom and neurons.me.
+
+# About All.This
+
+## Modular Data Structures:
+
+**[this.me](https://suign.github.io/this.me)  - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) - [this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) - [this.be](https://suign.github.io/this.be) - [this.video](https://suign.github.io/this.video) - [this.atom](https://suign.github.io/this.atom) - [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+
+**Each module** in **[all.this](https://neurons.me/all-this)** represents a specific **datastructure**. These classes encapsulate the functionalities and **data specific to their domain.**
+
+## **Utils**
+
+**[all.this](https://neurons.me/all-this)** not only aggregates these modules but also provides utilities to facilitate the integration, management, and enhancement of these data structures. **For example:**
+
+*The integration with [cleaker](https://suign.github.io/cleaker/) ensures each module instance has a **unique cryptographic identity**, enhancing security and data integrity.*
+
+### Neurons.me Ecosystem Glossary:
+
+visit: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary) 
+
+Learn more at https://neurons.me
+
+**Author:** SuiGn
+
+[By neurons.me](https://neurons.me)
+
+<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">

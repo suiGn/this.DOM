@@ -1,1 +1,1 @@
-console("indexing src/DOM.JS");
+console("this.DOM loaded.");
