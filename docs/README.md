@@ -1,8 +1,19 @@
 <img src="./_._.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
 
-## UNDER DEVELOPMENT NOT YET READY FOR PRODUCTION.
+# THIS.DOM
 
-## this.dom: Reshaping Web Data for neurons.me
+-----------
+
+### [Project Status : Experimental and Under Development, Subject to Major Changes]
+
+The module is in active development, and as such, it is subject to significant changes as we refine our approach and methodologies to best support our goals.
+
+visit: https://neurons.me to learn more.
+
+----------
+
+## Reshaping Web Data for neurons.me
+
 this.dom is crafted as a transformative module within the all.this family, specifically designed to capture and reformat any web page's Document Object Model (DOM) for compatibility with the standardized formats of neurons.me. Its primary mission is to facilitate the extraction and conversion of web-based data, enabling its seamless integration into the machine learning ecosystem of neurons.me.
 
 Core Objectives of this.dom:
@@ -39,18 +50,9 @@ Community Collaboration: As an integral component of the all.this library, this.
 
 Continuous Evolution: The development of this.dom is an ongoing journey, with the module continually evolving to meet the dynamic needs of web data standardization and machine learning integration.
 
-Contributing and Licensing:
-Contributions: Your expertise and contributions are welcome to help evolve this.dom, ensuring it remains a cutting-edge tool for data transformation.
 
-License: Distributed under the MIT License, this.dom supports open-source values, promoting widespread use and collaborative enhancement.
 
-User Privacy and Usage Terms:
-
-https://www.neurons.me/terms-of-use
-https://www.neurons.me/privacy-policy
-
-this.dom adheres to stringent privacy standards, processing data without storing personal information. Users are encouraged to review the Privacy Policy and Terms of Use to understand the guidelines governing data handling and usage rights.
-By adopting this.dom in your projects, you're not just accessing a tool; you're embracing a new paradigm where web data becomes a ready-to-use asset for machine learning, powered by the innovative synergy between this.dom and neurons.me.
+----------
 
 # About All.This
 
@@ -70,10 +72,18 @@ By adopting this.dom in your projects, you're not just accessing a tool; you're 
 
 visit: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary) 
 
-Learn more at https://neurons.me
+## License & Policies
 
-**Author:** SuiGn
+- **License**: MIT License (see LICENSE for details).
 
-[By neurons.me](https://neurons.me)
+- **Privacy Policy**: Respects user privacy; no collection/storage of personal data.
 
-<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
+- **Terms of Usage**: Use responsibly. No guarantees/warranties provided. [Terms](https://www.neurons.me/terms-of-use) | [Privacy](https://www.neurons.me/privacy-policy)
+
+  **Learn more** at https://neurons.me
+
+  **Author:** SuiGn
+
+  [By neurons.me](https://neurons.me)
+
+  <img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
