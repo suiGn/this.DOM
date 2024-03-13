@@ -111,7 +111,7 @@
             
             <nav>
                 
-                    <h2><a href="index.html">Documentation</a></h2><div class="category"></div>
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#thisDOM">thisDOM</a></li></ul></div>
                 
             </nav>
         </div>
@@ -152,32 +152,46 @@
 <p>The module is in active development, and as such, it is subject to significant changes as we refine our approach and methodologies to best support our goals.</p>
 <p>visit: https://neurons.me to learn more.</p>
 <hr>
-<h2>Reshaping Web Data for neurons.me</h2>
-<p>this.dom is crafted as a transformative module within the all.this family, specifically designed to capture and reformat any web page's Document Object Model (DOM) for compatibility with the standardized formats of neurons.me. Its primary mission is to facilitate the extraction and conversion of web-based data, enabling its seamless integration into the machine learning ecosystem of neurons.me.</p>
-<p>Core Objectives of this.dom:
-Universal DOM Capture: this.dom is engineered to efficiently fetch and encapsulate the DOM from any website or web application, ensuring that the data is accessible regardless of its original context or structure.</p>
-<p>Data Transformation: Beyond mere data capture, this.dom excels in converting the gathered DOM information into a neurons.me-compatible format. This process involves reorganizing the DOM's structure, standardizing its components, and preparing the data for machine learning applications.</p>
-<p>Enhanced Interoperability: By aligning the data structure of web content with the neurons.me framework, this.dom eradicates barriers to data compatibility, enabling a fluid data flow between web environments and machine learning models.</p>
-<p>Getting Started with this.dom:
-To integrate this.dom into your workflow, begin by installing the package:</p>
-<p>bash
-Copy code
-npm i this.dom
-Simple Integration Example:
-javascript
-Copy code
-const ThisDom = require('this.dom.js');</p>
-<p>// Example: Standardizing an entire web page's DOM
-const pageDom = document.documentElement;  // Fetch the whole DOM of the page
-const domInstance = new ThisDom(pageDom);
-domInstance.standardize();</p>
-<p>// Obtain and utilize the neurons.me-formatted representation
-console.log(domInstance.getNeuronsMeFormattedData());
-In this snippet, this.dom takes a complete web page's DOM, standardizes it, and outputs a version that is structured according to the neurons.me data specifications, ready for machine learning analysis or processing.</p>
-<p>Engaging with the all.this Ecosystem:
-Data Standardization: this.dom plays a pivotal role in the all.this ecosystem, focusing on the standardization of web data, ensuring that every piece of information is primed for neurons.me's analytical tools.</p>
-<p>Community Collaboration: As an integral component of the all.this library, this.dom benefits from and contributes to a culture of open collaboration. Developers are encouraged to contribute, share insights, and enhance the module's capabilities.</p>
-<p>Continuous Evolution: The development of this.dom is an ongoing journey, with the module continually evolving to meet the dynamic needs of web data standardization and machine learning integration.</p>
+<h1>Getting Started:</h1>
+<p><strong>this.dom</strong> takes a complete web page's DOM, standardizes it, and outputs a version that is structured according to the <strong>neurons.me</strong> <strong>data specifications</strong>, ready for machine learning analysis or processing.</p>
+<p>To integrate <strong>this.dom</strong> into your workflow, begin by installing the package:</p>
+<pre class="prettyprint source lang-bash"><code>npm i this.dom
+</code></pre>
+<h2>Simple Integration Example:</h2>
+<p>With this setup, <code>this.DOM</code> can be utilized in a straightforward, promise-based manner within your projects, akin to your example with <code>this.audio</code>:</p>
+<pre class="prettyprint source lang-js"><code>import thisDOM from 'this.DOM';
+thisDOM(input)
+  .then(processedDOM => {
+    // Work with the processed DOM structure
+  })
+  .catch(error => {
+    // Handle any errors that occurred during DOM processing
+  });
+</code></pre>
+<p>This approach promotes a consistent, modular, and intuitive usage pattern across our different <strong>dataformatters</strong>, making it easier for developers to integrate and leverage them within their applications.</p>
+<ul>
+<li><strong>Purpose</strong>: <code>this.DOM</code> focuses on the structure and content of the web document, dealing directly with <strong>HTML DOM elements</strong>. It can read, manipulate, and generate DOM structures, providing a foundation upon which can build.</li>
+<li><strong>Functionality</strong>: It can <strong>parse HTML documents</strong>, manipulate elements, extract information, and prepare the DOM structure for enhancements or transformations.</li>
+<li><strong>Interactions</strong>: <code>this.DOM</code> offers APIs for <strong>basic DOM manipulation</strong>s like adding, removing, or modifying elements. These APIs can be used by your system that require DOM manipulation.</li>
+</ul>
+<h1>Reshaping Web Data for neurons.me</h1>
+<p>Conceptualizing <code>this.DOM</code> as data structures that are meant to be processed and potentially evolved through interactions with neural networks within the neurons.me ecosystem. Instead of being static entities or libraries, they are dynamic constructs that can <strong>learn, adapt, and transform through exposure to data and neural network processing.</strong></p>
+<h3>Neural Network Integration:</h3>
+<ul>
+<li>
+<p><strong>Data Structure Representation</strong>: Represents the DOM as a data structure that can be analyzed and manipulated by neural networks. It encapsulates the structural and content-related aspects of a user interface at a granular level.</p>
+</li>
+<li>
+<p><strong>Neural Network Interaction</strong>: <code>this.DOM</code> can be fed into neural networks to analyze patterns, understand user interactions, and potentially suggest optimizations or transformations based on learned insights.</p>
+<h3>Application and Use Cases:</h3>
+<ul>
+<li><strong>Dynamic Interface Generation</strong>: Leveraging neural networks, <code>this.GUI</code> could dynamically generate user interfaces that are optimized for the current context, user preferences, and device capabilities.</li>
+<li><strong>User Experience Optimization</strong>: Neural networks could analyze <code>this.DOM</code> structures to suggest or automatically implement optimizations that enhance usability, accessibility, and user engagement.</li>
+<li><strong>Adaptive Interfaces</strong>: Over time, as neural networks learn from a broad spectrum of interactions and contexts, they could guide the evolution of <code>this.GUI</code> to create interfaces that adapt in real-time to user needs and environmental factors.</li>
+</ul>
+<p>In this conceptual framework, <code>this.DOM</code> and <code>this.GUI</code> are not just static descriptions or libraries but living, evolving structures that are integral to a neural network-driven process of continuous UI/UX optimization and innovation within the neurons.me ecosystem.</p>
+</li>
+</ul>
 <hr>
 <h1>About All.This</h1>
 <h2>Modular Data Structures:</h2>
